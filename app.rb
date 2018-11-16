@@ -2,7 +2,7 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
 
-get ('/name'){""
+get ('/name'){ "My name is #{name}"}
 
 get ('/hometown')
 
